@@ -207,4 +207,33 @@ button:hover{
     height: 400px;
     margin-left: 30px;
     margin-right: 30px;
+    
+}
+#contactus p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: #ff3527;
+}
+#Addre{
+    background-image: linear-gradient(rgb(215, 58, 134),lightyellow);
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+#Addre h2{
+    font-size: 35px;
+    color: darkmagenta;
+}
+#Addre h3{
+    font-size: 15px;
+    color: cyan;
+}
+#Addre a img{
+    width: 30px;
+    height: 30px;
 }
