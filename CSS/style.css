@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .container{
     width: 100%;
     height: 150vh;
@@ -37,60 +38,20 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 nav ul li a:hover {
     color: #9de53e;
 }
 .header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 20px;
     color: #ffffff;
 }
 
-.content{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px ;
-    background-image: linear-gradient(gray,white)  ;
-    text-align: left;
-    width: 95%;
-    border-radius: 15px;
-    position: relative;
-    height: 400px;
-    margin-left: 35px;
-    
-}
-.col-1{
-    flex-basis: 50%;
-    position: relative;
-    margin-left: 20px;
-}
-.col-1 h2{
-    font-size: 54px ;
-}
-.col-1 h3{
-    font-size: 30px ;
-    color: #707070;
-    font-weight: 100;
-    margin: 20px 0 10px
-}
-.col-1 p{
-    font-size: 20px ;
-    color: #ff5ea2;
-    margin-top: 20px;
-}
-.col-1 p img{
-    width: 90px;
-    height: 20px;
-    margin-left: 10px;
-    margin-block: -4px;
-}
-.col-1 h4{
-    margin: 30px;
-    font-size: 20px;
-}
+
+
 button{
     width: 140px;
     border: 0 ;
@@ -119,15 +80,6 @@ button:hover{
 
 }
 
-.col-1::after {
-    content: '';
-    width: 10px;
-    height: 57%;
-    background: linear-gradient(#cd8aaa, #ff6062);
-    left: -40px;
-    top: 8px
-}
-
 .colamit{
     position: relative;
     background-image: linear-gradient(black);
@@ -135,7 +87,7 @@ button:hover{
     height: 600px;
     margin-top: 50px;
     margin-left: 20px;
-    width: 35%;
+    width: 85%;
     
 }
 .colamit ul li{
@@ -147,13 +99,8 @@ button:hover{
     padding: 5px;
     text-align: center;
 }
-.imge{
-    width: 100;
-    height: 100px;
-    
-}
+
 .colamit ul li a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     margin: 20px ;
     color: #ffffff;
@@ -161,76 +108,44 @@ button:hover{
 
 }
 
-.hea{
-    text-align: center;
-    color: rgb(81, 135, 216);
-    font-family:Georgia ;
-    font-weight: bolder;
+
+
+
+tr:hover{
+    background-image:linear-gradient(to right, #fb5283, #ff3527) ;
 }
-.recommended{
-    background-image: url(/images/pc-games-seller-gwalior-ho-gwalior-qcfo258ad6.webp);
-    width: 100%;
-    height: 440px;
+
+tr:nth-child(even){
+    background-color:rgb(26, 23, 23) ;
 }
-.col-1 h3 img{
-    width: 30px;
-    height: 30px;
+
+
+table tr td a{
+    text-decoration:none;
+    color: #fff;
+    font-size:20px;
 }
-#lastgame{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px ;
-    background-image: linear-gradient(gray,white)  ;
-    text-align: left;
-    width: 95%;
-    border-radius: 15px;
-    position: relative;
-    height: 400px;
-    margin-left: 380px;
+
+table tr td p{
+    font-family:sans-serif;
+    font-size:15px;
 }
-#contactus{
-    position: relative;
-    background-image: linear-gradient(gray,white);
-    margin-top: 750px;
-    width: 95%;
-    height: 400px;
-    margin-left: 30px;
-    margin-right: 30px;
-    
+
+.mainsection{
+    display:flex;
 }
-#contactus p {
-    font-size: 35px;
-    text-align: center;
-    font-weight: bolder;
-    color: darkturquoise;
+
+.gamearea{
+    margin-top:50px;
 }
-#Addre{
-    background-image: linear-gradient(rgb(215, 58, 134),lightyellow);
-    width: 350px;
-    height: 300px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 40px;
-    border-radius: 20px;
-    text-align: center;
+
+#footer{
+    display:flex;
 }
-#Addre h2{
-    font-size: 35px;
-    color: darkmagenta;
-}
-#Addre h3{
-    font-size: 15px;
-    color: rgb(36, 73, 239);
-    margin-top: 20px;
-}
-#Addre a img{
-    width: 30px;
-    height: 30px;
-    border-radius: 27px;
-}
-#Addre p{
-    font-size: 15px;
-    color: #000000;
-    text-align: left;
-    margin-left: 7px;
+
+table{
+    background-color: rgb(35, 34, 34);
+    color:whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
